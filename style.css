@@ -123,3 +123,73 @@ h1{
 
 /* styling quotes section starts */ 
 
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+    background-color: #e4e7eb;
+}
+
+.upper-quotes {
+    max-width: 750px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.lower-quotes {
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+    font-size: 30px;
+}
+
+/* styling quotes section ends */ 
+
+/* styling action section starts */ 
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 30px;
+    width: 800px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.form h2 {
+    color: #fff;
+}
+
+.form p {
+    color: #e5e7eb;
+}
+
+.right-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form button {
+    width: 110px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 18px;
+}
